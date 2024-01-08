@@ -1,0 +1,388 @@
+/* shared styles */
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+
+/* header section design */
+.header {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%),
+        url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 16px;
+    height: 600px;
+
+
+}
+
+.header-div {
+    text-align: center;
+
+}
+
+.new-year-heading {
+    padding-top: 177px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-celebration {
+    width: 632px;
+    margin-top: 0px;
+    margin: auto;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
+
+}
+
+
+
+/* main section design */
+
+/* off-section-design */
+.off-section {
+    padding-top: 120px;
+}
+
+.off-title {
+    text-align: center;
+}
+
+.off {
+    color: #F00;
+    /* text-align: center; */
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-paragraph {
+    color: #F00;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.off-heading {
+    color: #070211;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.new-year-img {
+    width: 802.9px;
+    height: 500px;
+
+}
+
+/* welcome to mid night party section */
+
+.welcome-party-section {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%), url('../images/Vectorrr.png');
+    /* width: 1320px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 600px; */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+    border-radius: 10px;
+
+}
+
+.welcome-party-main {
+    display: flex;
+}
+
+.welcome-main-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 5.04px;
+    width: 640px;
+    padding-left: 126px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-left: 126px;
+    margin-top: 24px;
+
+}
+
+.join-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 158px;
+    margin-bottom: 120px;
+    background: none;
+}
+
+.welcome-party-img {
+    width: 319.83px;
+    height: 464.662px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* place-date-time-section */
+.date-banner{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
+height: 482px;
+margin: 120px 140px;
+text-align: center;
+}
+.span-text{
+    color: #F00;
+}
+.place-btn{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border-radius: 8px;
+background: #F00;
+margin-top: 40px;
+border: none;
+}
+.date-banner-text{
+    padding-top: 100px;
+    color: #070211;
+text-align: center;
+font-size: 32px;
+font-weight: 600;
+line-height: 15px; 
+}
+/* coming-soon-2024 */
+.coming-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* holday-sale*/
+
+/* 50discount */
+
+/* the-best-gift  */
+/* .best-gift-section {} */
+
+.best-gift {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 140px;
+    margin-bottom: 0px;
+}
+
+.best-gift-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 140px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+.best-gift-p {
+    margin-left: 140px;
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.gift-picture-main {
+    margin-left: 140px;
+    margin-top: 48px;
+    margin-right: 140px;
+
+}
+
+.gift-picture-first-row {
+    display: flex;
+
+}
+
+.gift-picture-second-row {
+    display: flex;
+
+}
+
+.primary-img {
+    width: 390px;
+    height: 450px;
+    border-radius: 16px;
+    padding-bottom: 24px;
+}
+
+#middle-image-first {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#middle-image-second {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+/* newsletter-section */
+.newsletter {
+   margin: 100px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    height: 616px;
+    text-align: center;
+}
+
+.newsletter-pic{
+    margin-top: 80px;
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+.newsletter-title{
+margin-top: 40px;
+color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 0px;
+}
+
+.newsletter-p{
+color: rgba(7, 2, 17, 0.60);
+text-align:center;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+width: 896px;
+margin: auto;
+padding-top: 22px;
+padding-bottom: 48px;
+
+}
+.input-email{
+width: 448px;
+height: 52px;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border:none;
+}
+
+.input-sbscribe{
+width: 110px;
+height: 52px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border:none;
+color: #FFF;
+
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+/* footer section */
+.footer-banner{
+    width: auto;
+    height: 609px;
+    background: #070211;
+}
+.address{
+display: flex;
+padding-top: 120px;
+/* text-align:center; */
+}
+
+.street-text-footer{
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+max-width: 375px;
+max-height: 80px;
+margin-left: 140px;
+}
+.shared-text-footer{
+margin-right: 140px;
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+max-width: 375px;
+max-height: 80px;
+
+}
+.phone{
+ text-align:center;
+ padding-left: 440px;
+
+}
+.social-link{
+    width: 64px;
+   height: 64px;
+    display: flex;
+    padding-left: 600px;
+    margin-top: 50px;
+/* margin: 50%; */
+padding:0 auto;
+gap: 10px;
+}
+.desh{
+    margin: 10px 140px;
+    margin-bottom: 0px;
+    
+}
+.all-right-reserved{
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    /* line-height: 40px;  */
+    padding-top: 80px;
+
+}
+.all-right{
+    margin-left: 140px;
+margin-bottom: 50px;
+}
+.Unsubscribe{
+    text-align:center;
+    margin-left: 840px;
+        color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    background: none;
+
+}
